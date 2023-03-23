@@ -85,7 +85,8 @@ def parse_build_final():
         build = {'Mastery': mastery, 'Skills': skill, 'Version': version, 'Video': video}
         builds.append(build)
     
-    print(builds)
+    for build in builds:
+        print(build)
 
 
 def run():
